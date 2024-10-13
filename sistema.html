@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        .navbar {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Menu</title>
+</head>
+
+<body>
+    <header class="text-center">
+        <h2>SISTEMA DE INSCRIPCION</h2>
+    </header>
+
+    <div id="header" class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mantenimiento
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="FrmAlumno.php">Alumno</a>
+                        <a class="dropdown-item" href="FrmMateria.php">Materia</a>
+                        <a class="dropdown-item" href="FrmDocente.php">Docente</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Inscripcion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="#">Boleta</a>
+                        <a class="dropdown-item" href="#">Notas</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reportes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                        <a class="dropdown-item" href="#">Alumnos morosos</a>
+                        <a class="dropdown-item" href="#">Docentes activos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ayuda</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
